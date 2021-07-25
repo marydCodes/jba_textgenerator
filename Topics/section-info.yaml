@@ -9,3 +9,6 @@ content:
 - Built-in exceptions
 - Exception handling
 - Tokenization
+- Integer arithmetic
+- Defaultdict and Counter
+- Operations with dictionary

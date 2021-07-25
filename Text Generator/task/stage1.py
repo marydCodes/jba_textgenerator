@@ -1,27 +1,28 @@
-# Stage 3 /6: make a simplified version of a Markov chain model
-
-import nltk
 from nltk.tokenize import WhitespaceTokenizer
 # nltk.download("punkt")
 
-# filename = input()
-filename = "corpus.txt"
+filename = input()
+# filename = "corpus.txt"
 f = open(filename, "r", encoding="utf-8")
 corpus = f.read()
 # print(corpus[0:2])
 
 tkns = WhitespaceTokenizer().tokenize(corpus)
+# tkns = regexp_tokenize(corpus, "[0-9A-z'\-!]+")
 # print(tkns[0:5])
 
-bigrams = list(nltk.bigrams(tkns))
-print("Number of bigrams:", len(bigrams))
-print(bigrams[0:6])
+# Corpus statistics
+n_all = len(tkns)
+n_unq = len(set(tkns))
+print("Corpus statistics")
+print("All tokens:", n_all)
+print("Unique tokens:", n_unq)
 
 while True:
     in_ = input()
     try:
         idx = int(in_)
-        print("Head:", bigrams[idx][0], "Tail:", bigrams[idx][1])
+        print(tkns[idx])
     except ValueError:
         if in_ == "exit":
             False
@@ -29,4 +30,4 @@ while True:
         else:
             print("Type Error. Please input an integer.")
     except IndexError:
-        print("Index Error. Please put input a value that is not greater than the number of all bigrams.")
+        print("Index Error. Please put input an integer that is in the range of the corpus.")

@@ -24030,6 +24030,15 @@ files:
     The Queen in the North!
     The Queen in the North! The Queen in the North! The Queen in the North! The Queen in the North! The Queen in the North!
   learner_created: false
+- name: text_generator/corpus.txt
+  visible: true
+  learner_created: true
+- name: stage1.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/134/stages/715/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 21 Jul 2021 15:34:10 UTC
+record: 4

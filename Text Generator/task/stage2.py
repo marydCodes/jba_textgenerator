@@ -1,11 +1,9 @@
-# Stage 3 /6: make a simplified version of a Markov chain model
-
 import nltk
 from nltk.tokenize import WhitespaceTokenizer
 # nltk.download("punkt")
 
-# filename = input()
-filename = "corpus.txt"
+filename = input()
+# filename = "corpus.txt"
 f = open(filename, "r", encoding="utf-8")
 corpus = f.read()
 # print(corpus[0:2])
@@ -15,7 +13,6 @@ tkns = WhitespaceTokenizer().tokenize(corpus)
 
 bigrams = list(nltk.bigrams(tkns))
 print("Number of bigrams:", len(bigrams))
-print(bigrams[0:6])
 
 while True:
     in_ = input()
