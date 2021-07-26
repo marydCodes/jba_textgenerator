@@ -1,4 +1,4 @@
-# Stage 4 /6: Generate random text
+# Stage 4/6: Generate random text
 # We suggest using the method random.choices() to select the most probable tail from the list of possible tails based on the corresponding repetition counts.
 # This method is similar to random.choice() with the exception that it also considers user-specified weights during the process.
 
@@ -8,8 +8,8 @@ import collections
 import random
 # nltk.download("punkt")
 
-filename = input()
-# filename = "corpus.txt"
+# filename = input()
+filename = "corpus.txt"
 f = open(filename, "r", encoding="utf-8")
 corpus = f.read()
 # print(corpus[0:2])
@@ -45,5 +45,3 @@ for i in range(10):
 
     pseudo = " ".join(chain)
     print(pseudo)
-
-

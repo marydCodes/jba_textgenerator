@@ -24021,9 +24021,12 @@ files:
 - name: stage2.py
   visible: true
   learner_created: true
+- name: stage3.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/134/stages/716/implement#comment
 status: Solved
 feedback:
   message: Congratulations!
   time: Sun, 25 Jul 2021 16:25:33 UTC
-record: -1
+record: 6
