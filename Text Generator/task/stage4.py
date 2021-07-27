@@ -8,8 +8,8 @@ import collections
 import random
 # nltk.download("punkt")
 
-# filename = input()
-filename = "corpus.txt"
+filename = input()
+# filename = "corpus.txt"
 f = open(filename, "r", encoding="utf-8")
 corpus = f.read()
 # print(corpus[0:2])

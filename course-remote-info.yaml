@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/422484/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Mon, 26 Jul 2021 14:44:39 UTC
+update_date: Tue, 27 Jul 2021 16:58:14 UTC
 stages:
 - id: 714
   step: 11139
@@ -37,6 +37,8 @@ topics:
     theory_id: 13025
   - title: File types
     theory_id: 13017
+  - title: Regexps basics
+    theory_id: 7580
   - title: Intro to computational thinking
     theory_id: 8742
   - title: Components of computational thinking
@@ -83,8 +85,6 @@ topics:
     theory_id: 6052
   - title: Exceptions
     theory_id: 6042
-  - title: Regexps basics
-    theory_id: 7580
   - title: Natural language processing
     theory_id: 9157
   - title: Regexps in Python
