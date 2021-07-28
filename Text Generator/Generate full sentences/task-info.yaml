@@ -24006,29 +24006,12 @@ files:
 - name: stage2.py
   visible: true
   learner_created: true
+- name: stage5.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/134/stages/718/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    If a sentence is longer than 5 tokens, it should end at the first sentence ending punctuation.
-
-    Please find below the output of your program during this failed test.
-    Note that the '>' character indicates the beginning of the input line.
-
-    ---
-
-    > test/corpus.txt
-    More, I If to have is tomorrow.
-    What do than like you for and to lord. them.
-    Tarth murdered been Most a to and to the pay.
-    It was who me a fall.
-    What do the don't a door.
-    That is a that was a to to than hers.
-    Bolton's bastard you I Your a good Iron breathing.
-    I don't is He with to you have and years.
-    Oh, I How the enemies.
-    Do you to way. men the is a to us.
-  time: Tue, 27 Jul 2021 18:09:41 UTC
+  message: Congratulations!
+  time: Wed, 28 Jul 2021 07:15:12 UTC
 record: -1
